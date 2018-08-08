@@ -1,0 +1,172 @@
+This is a pure python program
+This is very fast
+
+cetc001@cetc001-Precision-Tower-5810:~/517030910405/dl-system-517030910405/test (copy)$ time python3 run_test.py joker
+========== test 0 adder ==========
+
+========== test 1 initializer ==========
+
+========== test 2 assign ==========
+
+========== test 3 context ==========
+
+========== test 4 autodiff ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.917
+
+========== test 5 optimizer ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.918
+
+========== test 6 multilayer perceptron ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Epoch: 0001 cost= 2.269883395
+Epoch: 0002 cost= 1.954321074
+Epoch: 0003 cost= 1.800060031
+Epoch: 0004 cost= 1.721368510
+Epoch: 0005 cost= 1.346053739
+Epoch: 0006 cost= 0.700308716
+Epoch: 0007 cost= 0.496161581
+Epoch: 0008 cost= 0.404100742
+Epoch: 0009 cost= 0.354339350
+Epoch: 0010 cost= 0.323334333
+Optimization Finished!
+Accuracy: 0.910
+
+========== test 7 adam optimizer ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.923
+
+========== test 8 CNN 0 ==========
+<function test_forward_conv at 0x7f8ea7ef3048>
+<function test_backward_conv at 0x7f8e8f7328c8>
+<function test_forward_maxpool at 0x7f8ea258b268>
+<function test_backward_maxpool at 0x7f8ea258b598>
+
+========== test 9 CNN 1 ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Step 0, trainning accuracy 0.07
+Step 50, trainning accuracy 0.69
+Step 100, trainning accuracy 0.87
+Step 150, trainning accuracy 0.94
+Test accuracy: 0.9055
+
+========== test 10 CNN 2 ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+step 0, trainning accuracy 0.11
+step 50, trainning accuracy 0.94
+step 100, trainning accuracy 0.97
+step 150, trainning accuracy 0.95
+test accuracy 0.971
+
+Pass all!
+
+real	7m18.710s
+user	13m47.488s
+sys	13m20.728s
+cetc001@cetc001-Precision-Tower-5810:~/517030910405/dl-system-517030910405/test (copy)$ 
+
+
+
+cetc01@cetc01-Precision-Tower-5810:~/delete/dl-system-test-master/517030910405/dl-system-517030910405/test (copy)$ time python3 run_test.py joker
+========== test 0 adder ==========
+
+========== test 1 initializer ==========
+
+========== test 2 assign ==========
+
+========== test 3 context ==========
+
+========== test 4 autodiff ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.916
+
+========== test 5 optimizer ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.919
+
+========== test 6 multilayer perceptron ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Epoch: 0001 cost= 2.077457064
+Epoch: 0002 cost= 1.806071224
+Epoch: 0003 cost= 1.662978914
+Epoch: 0004 cost= 1.018862831
+Epoch: 0005 cost= 0.523738877
+Epoch: 0006 cost= 0.418315628
+Epoch: 0007 cost= 0.383977970
+Epoch: 0008 cost= 0.361624729
+Epoch: 0009 cost= 0.340400403
+Epoch: 0010 cost= 0.321221481
+Optimization Finished!
+Accuracy: 0.910
+
+========== test 7 adam optimizer ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Accuracy: 0.915
+
+========== test 8 CNN 0 ==========
+<function test_forward_conv at 0x7f787743af28>
+<function test_backward_conv at 0x7f785ec1c840>
+<function test_forward_maxpool at 0x7f785ec1c8c8>
+<function test_backward_maxpool at 0x7f7857743e18>
+
+========== test 9 CNN 1 ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Step 0, trainning accuracy 0.09
+Step 50, trainning accuracy 0.76
+Step 100, trainning accuracy 0.77
+Step 150, trainning accuracy 0.95
+Test accuracy: 0.9193
+
+========== test 10 CNN 2 ==========
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+step 0, trainning accuracy 0.07
+step 50, trainning accuracy 0.93
+step 100, trainning accuracy 0.95
+step 150, trainning accuracy 0.96
+test accuracy 0.9688
+
+Pass all!
+
+real	6m0.862s
+user	14m1.592s
+sys	12m55.988s
+cetc01@cetc01-Precision-Tower-5810:~/delete/dl-system-test-master/517030910405/dl-system-517030910405/test (copy)$ 
+
+
